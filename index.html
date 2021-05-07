@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mariott Hotel</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/Web_Photo_Editor.jpg"
+          width="5px"
+          heigth="2px"
+          alt="logo"
+          class="nav__logo"
+          id="logo"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#home">Home</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Services</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Rooms</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Gallery</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--sign-up">About us</a>
+          </li>
+
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Book a room</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title" id="home">
+        <h1>Hotel Mariott</h1>
+        <h4>Enjoy a luxury experience</h4>
+        <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h1 class="section__description">Services</h1>
+      </div>
+
+      <div class="features">
+        <img
+          src="https://images.moneycontrol.com/static-mcnews/2017/04/hotel-770x433.jpg?impolicy=website&width=770&height=431"
+          alt="Hotel Room"
+        />
+
+        <div class="features__feature">
+          <h5 class="features__header">Luxurious Rooms</h5>
+          <p>
+            All our guestrooms are elegantly furnished with handmade furniture
+            include luxury en-suite facilities with complimentary amenities
+            pack, flat screen LCD TV, tea/coffee making facilities, fan,
+            hairdryer and the finest pure white linen and towels.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <h5 class="features__header">Delicious Food</h5>
+          <p>
+            Our menu is based on the principles of using the high quality raw
+            local ingredients, along with the best of ingredients imported from
+            around the world, freshly cooked with care and attention. There is a
+            wide selection to choose from ala’carte selections and special
+            menus.
+          </p>
+        </div>
+        <img
+          src="https://restaurantindia.s3.ap-south-1.amazonaws.com/s3fs-public/content9733.jpg"
+          alt="Food"
+        />
+
+        <img
+          src="http://st.depositphotos.com/1003345/2451/i/450/depositphotos_24518701-Hotel-bell.jpg"
+          alt="Staff"
+        />
+        <div class="features__feature">
+          <h5 class="features__header">Helpful Staff</h5>
+          <p>
+            Please be assured that there will always be a member of staff on the
+            premises for emergency contact or assistance. If guests need
+            assistance, the recommended social distancing rule will be followed
+            throughout our hotel by staff and guests
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Rooms</h2>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            <span>01</span>Single room
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>02</span>Twin room
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>03</span>King suite
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <p>
+            This is our smallest budget rooms, the compact bedrooms are suited
+            for single occupancy or short-stay double occupancy as they have
+            limited space and storage.<br />
+            <img
+              src="https://clavertonhotel.co.uk/wp-content/uploads/2015/10/Compact-Double.jpg"
+            />
+          </p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <p>
+            Our Deluxe Twin/Large Double also provides views over landscaped
+            gardens. It has a seating area, digital safe, minibar and luxurious
+            duck down bedding. This room can be configured with either 2 single
+            beds or zip and linked to provide a large double bed.<br />
+            <img
+              src="https://clavertonhotel.co.uk/wp-content/uploads/2015/10/Deluxe-Twin_Superking.jpg"
+            />
+          </p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <p>
+            Our Deluxe king size room has a seating area, ample storage, digital
+            safe, minibar and luxurious duck down bedding. This room can also be
+            configured with an extra roll-away bed for families of 3.<br />
+            <img
+              src="https://clavertonhotel.co.uk/wp-content/uploads/2015/10/Deluxe-King-Size.jpg"
+            />
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Gallery</h2>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Lobby</h5>
+            <img
+              src="https://i.pinimg.com/originals/b7/42/12/b7421230a6a2357b214460569bfe48f1.jpg"
+              class="gallery"
+            />
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Restuarant</h5>
+
+            <img
+              src="https://www.hotelspeak.com/wp-content/uploads/2020/12/pexels-quark-studio-3201922-scaled.jpg"
+              class="gallery"
+            />
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Spa and swimming Pool</h5>
+            <img
+              src="https://pix10.agoda.net/hotelImages/8786863/0/d41ae4d2094a139eb9b42838a192a211.jpg?s=1024x768"
+              class="gallery"
+            />
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+    <br />
+    <section class="section section--sign-up" id="section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">About Us</h3>
+        <p>
+          Our hotel is a modern, upscale hospitality company that is passionate
+          about ‘making moments’, recognising that small gestures make a big
+          difference to our guests, our owners and our people. We do ordinary
+          things in an extraordinary way – a philosophy that has defined our
+          brand’s success from the very start. We also embrace innovation to
+          meet ever-changing guest needs and continue to celebrate our rich
+          culinary legacy, setting trends but never compromising on quality and
+          authenticity. An international company with a growing footprint, we
+          take a sustainable and responsible approach, caring for local
+          communities and protecting the environment in the destinations where
+          we operate.
+        </p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      <img
+        src="img/Web_Photo_Editor.jpg"
+        width="5px"
+        heigth="2px"
+        alt="logo"
+        class="nav__logo"
+        id="logo"
+      />
+
+      <p class="footer__copyright">
+        &copy; Copyright by
+        <a> Khushboo</a><br />
+        <a href="#" class="fa fa-twitter">kushbooMehta</a>
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">Book a room <br /></h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
